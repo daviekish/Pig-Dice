@@ -2,5 +2,9 @@
 
 // Business logic
 
-$("#dice-roll").innerHTML = 
-Math.floor(math.random() * 9) +1;
+$(document).ready(function () {
+    $("#dice-roll").click(() => {
+    var output = Math.floor((Math.random() * 6) + 1);
+    $("#outPut1").text("top number: " + output)
+    });
+});
