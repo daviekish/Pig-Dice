@@ -15,11 +15,7 @@ $(document).ready(function () {
         });
     });
 });
-$(document).ready(function () {
-    $("#test").click(function () {
-        $("#outshow").show();
-    });
-});
+
 
 $(document).ready(function () {
     var output2 = 0
@@ -39,8 +35,25 @@ $(document).ready(function () {
 });
 
 /*hide and show functions*/
+$(document).ready(function () {
+    $("#test").click(function () {
+        $("#outshow").show();
+    });
+});
 
-
+$(document).ready(function () {
+    $("#dice-Roll1").click(function () {
+        $("#outburst2").hide();
+        $("#dice-Hold1").click(function () {
+            $("#outburst2").show();
+            $("#outburst1").hide();
+            $("#dice-Hold2").click(function () {
+                $("#outburst2").hide();
+                $("#outburst1").show()
+            });
+        });
+    });
+});
 /* the instruction tab */
 
 function openHelp(evt, tabhelp) {

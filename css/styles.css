@@ -45,3 +45,6 @@ body {
 body{
     text-align: center
 }
+#outshow{
+    display: none;
+}
