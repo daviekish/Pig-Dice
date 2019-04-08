@@ -1,13 +1,9 @@
 
-Galaano Suleiman <sgalaano@gmail.com>
-9:04 AM (2 hours ago)
-to me
-
 # PIG-Dice
-#### A pig dice is a game
+#### A pig dice is a gamble
 ## Description
 This is a game where there are two playes where they roll and play the game which is programmed to ganarate random numbers and run till one reaches to 100 and becomes the winner and a new game starts
-To start the game here the url: https://github.com/Sgalaano/Pig-Dice.git
+To start the game here the url: https://github.com/daviekish/Pig-Dice.git
 
 # BDD
 |User input|    input      | output                |
@@ -32,7 +28,7 @@ github
 ### License ###
 MIT License
 
-Copyright (c) [2019] [Galaano Suleiman]
+Copyright (c) [2019] [David Kamweru]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
