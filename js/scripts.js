@@ -15,7 +15,11 @@ $(document).ready(function () {
         });
     });
 });
-
+$(document).ready(function () {
+    $("#test").click(function () {
+        $("#outshow").show();
+    });
+});
 
 $(document).ready(function () {
     var output2 = 0
