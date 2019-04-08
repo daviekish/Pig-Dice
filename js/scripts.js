@@ -4,7 +4,16 @@ $(document).ready(function () {
         var output1 = 0
         output1 = Math.floor(6 * Math.random()) + 1;
         $("#outPut1").text("top number" + " : " + output1);
-        $()
+         var output1 = 0
+         var totalscore = 0
+        $("#round-total-1").text(random1);
+        $("#dice-Hold1").click(function(){
+
+            totalscore=totalscore + output1 ;
+
+        $("#totalscore-1").text(totalScore)
+        output1 = 0
+        });
     });
 });
 
