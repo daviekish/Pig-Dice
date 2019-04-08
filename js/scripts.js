@@ -34,6 +34,8 @@ $(document).ready(function () {
     });
 });
 
+/*hide and show functions*/
+
 
 /* the instruction tab */
 
