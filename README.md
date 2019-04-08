@@ -19,11 +19,11 @@ To start the game here the url: https://github.com/daviekish/Pig-Dice.git
 Currently no bugs have been detected. Incase of any kindly do not hesitate to contact me via my email.
 
 ## Terminologies furnished
-html
-Javascript
-CSS
-bootstrap
-github
+1. html
+2. Javascript
+3. CSS
+4. bootstrap
+5. github
 
 ### License ###
 MIT License
