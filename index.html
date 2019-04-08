@@ -14,53 +14,89 @@
 
 <body>
 	<div class="tab">
-		<button class="tablinks" onclick="openCity(event, 'London')">Intructions.</button>
-		<div id=tab.help class="tabcontent">
-			<ul>
-				<h1>So how do you play Pig?</h1>
-				<p>Choose a player to go first. That player throws a die and scores as many points as the total shown on the die
-					providing the die doesn’t roll a 1. The player may continue rolling and accumulating points (but risk rolling
-					a
-					1)
-					or end his turn.
+		<button class="tablinks" onclick="openHelp(event, 'tabhome')">play</button>
+		<button class="tablinks" onclick="openHelp(event, 'tabhelp')">Intructions</button>
+	</div>
+	<div id=tabhelp class="tabcontent">
+		<ul>
+			<h1>So how do you play Pig?</h1>
+			<p>Choose a player to go first. That player throws a die and scores as many points as the total shown on the die
+				providing the die doesn’t roll a 1. The player may continue rolling and accumulating points (but risk rolling
+				a
+				1)
+				or end his turn.
 
-					If the player rolls a 1 his turn is over, he loses all points he accumulated that turn, and he passes the die
-					to
-					the
-					next player.
+				If the player rolls a 1 his turn is over, he loses all points he accumulated that turn, and he passes the die
+				to
+				the
+				next player.
 
-					Play passes from player to player until a winner is determined.</p>
-				<h1>How do you win?</h1>
-				<p>The first player to accumulate 100 or more points wins the game.</p>
-			</ul>
+				Play passes from player to player until a winner is determined.</p>
+			<h1>How do you win?</h1>
+			<p>The first player to accumulate 100 or more points wins the game.</p>
+		</ul>
+	</div>
+	<div id="tabhome" class="tabcontent">
+		<div id=grad>
+			<div class="container">
+				<div class="">
+					<h1>The pig Dice Project</h1>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+				</div>
+				<div class="row">
+					<br>
+					<br>
+					<br>
+					<div class="col-md-4">
+						<h2 id="playeryou">Player 1</h2>
+						<br>
+						<input type="button" value="Roll" id="dice-Roll1">
+						<input type="button" value="Hold" id="dice-Hold1">
+						<br>
+						<br>
+						<p id="outPut1">top number:</p>
+						<br>
+						<br>
+						<input type="result" id="total.score-1">
+					</div>
+					<div class="col-md-4"></div>
+					<div class="col-md-4">
+						<h2 id="playerthem">Player 2</h2>
+						<br>
+						<input type="button" value="Roll" id="dice-Roll2">
+						<input type="button" value="Hold" id="dice-Hold2">
+						<br>
+						<br>
+						<p id="outPut2">top number1: </p>
+						<br>
+						<br>
+						<input type="result" id="total.score-2">
+					</div>
 
+				</div>
+
+			</div>
 		</div>
 	</div>
 	<div class="container">
-		<div class="">
-			<h1>The pig Dice Project</h1>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
+		<div class="from-group">
+			<label for="new-last-name">player1</label>
+			<input type="text" placeholder="PLAYER ONE" id="btnplayer1">
+			<input type="button" value="begin" id="begin">
 		</div>
-		<div class="row">
-			<br>
-			<br>
-			<br>
-			<input type="button" value="Roll" id="dice-Roll1">
-			<input type="button" value="Roll" id="dice-Roll2">
-			<br>
-			<p id="outPut1">top number:</p>
-			<input type="result" id="total.score-1">
-			<p id="outPut2">top number1: </p>
-			<input type="result" id="total.score-2">
+		<div class="form-group">
+				<label for="new-last-name">player2</label>
+				<input type="text" placeholder="PLAYER TWO" id="btnplayer2">
+				<input type="button" value="begin" id="start">
 		</div>
+	</div>
 
-	</div>
-	</div>
+
 
 
 </body>
