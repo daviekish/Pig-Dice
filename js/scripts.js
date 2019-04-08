@@ -1,30 +1,39 @@
 // business logic
 $(document).ready(function () {
+    var output1 = 0
+    var totalscore = 0
     $("#dice-Roll1").click(() => {
-        var output1 = 0
-        output1 = Math.floor(6 * Math.random()) + 1;
-        $("#outPut1").text("top number" + " : " + output1);
-         var output1 = 0
-         var totalscore = 0
-        $("#round-total-1").text(random1);
-        $("#dice-Hold1").click(function(){
+        var random1 = Math.floor(6 * Math.random()) + 1;
+        $("#outPut1").text(output1);
+        $("#outPut1").text(random1);
+        $("#dice-Hold1").click(function () {
 
-            totalscore=totalscore + output1 ;
+            totalscore = totalscore + random1;
 
-        $("#totalscore-1").text(totalScore)
-        output1 = 0
+            $("#total-score-1").text(totalscore)
+            output1 = 0
         });
     });
 });
 
 
 $(document).ready(function () {
+    var output2 = 0
+    var totalscore = 0
     $("#dice-Roll2").click(() => {
-        var output2 = 0
-        output2 = Math.floor(6 * Math.random()) + 1;
-        $("#outPut2").text("top number1" + " : " + output2)
+        var random2 = Math.floor(6 * Math.random()) + 1;
+        $("#outPut2").text(output2);
+        $("#outPut2").text(random2);
+        $("#dice-Hold2").click(function () {
+
+            totalscore = totalscore + random2;
+
+            $("#total-score-2").text(totalscore)
+            output2 = 0
+        });
     });
 });
+
 
 /* the instruction tab */
 
@@ -43,11 +52,11 @@ function openHelp(evt, tabhelp) {
 }
 
 /*player identification */
-$(document).ready(function(){
-    $("#begin").click(function(){
+$(document).ready(function () {
+    $("#begin").click(function () {
         var nameOne = $("#btnplayer1").val();
 
-        $("#playeryou").html( nameOne);
+        $("#playeryou").html(nameOne);
     });
 });
 

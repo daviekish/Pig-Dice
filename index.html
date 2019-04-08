@@ -48,6 +48,16 @@
 					<br>
 					<br>
 				</div>
+				<div class="from-group">
+					<label for="new-last-name">player1</label>
+					<input type="text" placeholder="PLAYER ONE" id="btnplayer1">
+					<input type="button" value="place" id="begin">
+				</div>
+				<div class="form-group">
+					<label for="new-last-name">player2</label>
+					<input type="text" placeholder="PLAYER TWO" id="btnplayer2">
+					<input type="button" value="place" id="start">
+				</div>
 				<div class="row">
 					<br>
 					<br>
@@ -55,15 +65,16 @@
 					<div class="col-md-4">
 						<h2 id="playeryou">Player 1</h2>
 						<br>
-						<input type="button" value="Roll" id="dice-Roll1">
-						<input type="button" value="Hold" id="dice-Hold1">
-											<br>
+						<div class="show">
+							<input type="button" value="Roll" id="dice-Roll1">
+							<input type="button" value="Hold" id="dice-Hold1">
+						</div>
 						<br>
-						<p id="outPut1">top number:</p>
+						<br>
+						<p>Round Total:<span id="outPut1"></span></p>
 						<br>
 						<br>
-							<p>Round Total:<span id="round-total-1"></span></p>
-							<p>Total score:<span id="total-score-1"></span></p>
+						<p>Total score:<span id="total-score-1"></span></p>
 					</div>
 					<div class="col-md-4"></div>
 					<div class="col-md-4">
@@ -73,11 +84,15 @@
 						<input type="button" value="Hold" id="dice-Hold2">
 						<br>
 						<br>
-						<p>Round Total:<span id="round-total-2"></span></p>
+
+						<p>Round Total:<span id="outPut2"></span></p>
+						<br>
+						<br>
 						<p>Total score:<span id="total-score-2"></span></p>
-						<p id="outPut2">top number1: </p>
 						<br>
 						<br>
+						<br>
+
 					</div>
 
 				</div>
@@ -86,16 +101,7 @@
 		</div>
 	</div>
 	<div class="container">
-		<div class="from-group">
-			<label for="new-last-name">player1</label>
-			<input type="text" placeholder="PLAYER ONE" id="btnplayer1">
-			<input type="button" value="begin" id="begin">
-		</div>
-		<div class="form-group">
-				<label for="new-last-name">player2</label>
-				<input type="text" placeholder="PLAYER TWO" id="btnplayer2">
-				<input type="button" value="begin" id="start">
-		</div>
+
 	</div>
 
 
